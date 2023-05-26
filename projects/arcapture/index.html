@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html class="no-touch fixed">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+	<title>Unfussy</title>
+	<meta name="description" content="Design" />
+	<link rel="shortcut icon" href="https://unfussy.org/media/favicon.ico" />
+	<link rel="icon" type="image/svg+xml" sizes="any" href="https://unfussy.org/media/svgico.svg" />
+	<link rel="apple-touch-icon" href="https://unfussy.org/media/touchico.png" />
+	<link href="https://unfussy.org/styles.min.css" rel="stylesheet" />
+	<link rel="preconnect" href="https://rsms.me/" />
+	<link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+	<meta property="og:url" content="https://unfussy.org" />
+	<meta property="og:site_name" content="unfus.sy" />
+	<meta property="og:type" content="article" />
+	<meta property="og:locale" content="en_US" />
+</head>
+
+<body class="template-project" data-site-url="https://unfussy.org">
+	<main class="site-main flex flex-column fullheight">
+		<scrollbar-component></scrollbar-component>
+		<section class="projects-list flex">
+			<!--fill in expanded article-specifics, max-height must match collapsed component-->
+			<article id="arcapture" data-url="https://unfussy.org/projects/arcapture"
+				class="projects-list__item opened show-close" style="max-height: 75%">
+				<div class="flex flex-column fullheight">
+					<div class="projects-list__content">
+						<!--above the fold post, caption must match collapsed component-->
+
+						<div class="project__media fullheight lazy-container"
+							data-src="https://unfussy.org/projects/arcapture/arccover.png" data-final-width=""
+							data-width="1272" data-height="2000">
+							<img src="https://unfussy.org/projects/arcapture/arccover.png" />
+							<div class="projects-list__infos flex flex-wrap">
+								<div class="projects-list__desc">
+
+									<p>
+										As Hover expanded from pros to homeowners, new users frequently bounced during
+										their first capture. <span class="hblack">ARCapture</span> creates a visual
+										feedback loop between user inputs &amp; our CV backend, ensuring beginner's luck
+										for everyone.
+
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<!--container for below the fold media-->
+						<section class="project__medias flex">
+
+							<!--video post-->
+							<section class="project__media video-section" data-width="2000" data-height="2000"
+								style="width: 2000px;">
+								<div class="video-container"
+									data-bg="https://unfussy.org/projects/arcapture/arcvideo.png">
+									<div class="video-bg" style="background: url('
+																https://unfussy.org/projects/arcapture/arcvideo.png') center center / cover
+																no-repeat;"></div>
+									<video src="https://unfussy.org/projects/arcapture/arcvideo.mp4" width="2000"
+										height="2000" muted="" playsinline="" loop=""></video>
+								</div>
+								<div class="projects-list__infos flex flex-wrap">
+									<div class="projects-list__desc">
+										<div class="flexgroup">
+											<div class="flexcol1">
+												<p class="flexp">
+													All we need is 8 photos showing each side and corner of
+													the home—
+													harder than it sounds. We took advantage of LIDAR &
+													on-device
+													CV reconstruction to guide homeowners towards a good capture with no
+													blind spots.
+												</p>
+											</div>
+											<div class="flexcol2">
+												<p class="flexp">
+													&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+												</p>
+											</div>
+
+										</div>
+
+									</div>
+								</div>
+							</section>
+
+						</section>
+					</div>
+					<button class="btn__switch">
+						<span>+</span>
+						<span>[close]</span>
+					</button>
+				</div>
+			</article>
+
+			<!--include ALL collapsed components in order of index, excluding active page-->
+
+			<hovercad-collapsed></hovercad-collapsed>
+			<designsystems-collapsed></designsystems-collapsed>
+			<studio-collapsed></studio-collapsed>
+			<breaker-collapsed></breaker-collapsed>
+
+		</section>
+		<footer-component></footer-component>
+	</main>
+	<!--call ALL collapsed component scripts-->
+	<script src="https://unfussy.org/components/scrollbar.min.js" type="text/javascript" defer></script>
+	<script src="https://unfussy.org/components/footer.min.js" type="text/javascript" defer></script>
+	<script src="https://unfussy.org/components/hovercad-collapsed.min.js" type="text/javascript" defer></script>
+	<script src="https://unfussy.org/components/arcapture-collapsed.min.js" type="text/javascript" defer></script>
+	<script src="https://unfussy.org/components/designsystems-collapsed.min.js" type="text/javascript" defer></script>
+	<script src="https://unfussy.org/components/studio-collapsed.min.js" type="text/javascript" defer></script>
+	<script src="https://unfussy.org/components/breaker-collapsed.min.js" type="text/javascript" defer></script>
+	<script src="https://unfussy.org/functions.min.js" type="text/javascript" defer></script>
+</body>
+
+</html>

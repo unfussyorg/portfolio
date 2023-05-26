@@ -1,0 +1,29 @@
+{
+	"hosting": {
+		"public": ".",
+		"ignore": [
+			"firebase.json",
+			"ignore/**",
+			".vscode/",
+			"**/.*",
+			"captions.md",
+			"functions.js",
+			"styles.css",
+			"**/node_modules/**"
+		],
+		"rewrites": [
+			{
+				"source": "**",
+				"destination": "/index.html"
+			}
+		],
+		"cleanUrls": true,
+		"trailingSlash": false
+	},
+	"emulators": {
+		"hosting": {
+			"port": 5002,
+			"host": "0.0.0.0"
+		}
+	}
+}

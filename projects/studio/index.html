@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html class="no-touch fixed">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+	<title>Unfussy</title>
+	<meta name="description" content="Design" />
+	<link rel="shortcut icon" href="https://unfussy.org/media/favicon.ico" />
+	<link rel="icon" type="image/svg+xml" sizes="any" href="https://unfussy.org/media/svgico.svg" />
+	<link rel="apple-touch-icon" href="https://unfussy.org/media/touchico.png" />
+	<link href="https://unfussy.org/styles.min.css" rel="stylesheet" />
+	<link rel="preconnect" href="https://rsms.me/" />
+	<link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+	<meta property="og:url" content="https://unfussy.org" />
+	<meta property="og:site_name" content="unfus.sy" />
+	<meta property="og:type" content="article" />
+	<meta property="og:locale" content="en_US" />
+</head>
+
+<body class="template-project" data-site-url="https://unfussy.org">
+	<main class="site-main flex flex-column fullheight">
+		<scrollbar-component></scrollbar-component>
+		<section class="projects-list flex">
+			<!--fill in expanded article-specifics, max-height must match collapsed component-->
+			<article id="studio" data-url="https://unfussy.org/projects/studio"
+				class="projects-list__item opened show-close" style="max-height: 82.5%;">
+				<div class="flex flex-column fullheight">
+					<div class="projects-list__content">
+						<!--above the fold post, caption must match collapsed component-->
+
+						<!--video post-->
+						<section class="project__media video-section" data-width="1772" data-height="2196"
+							style="width: 1772px;">
+							<div class="video-container" data-bg="https://unfussy.org/projects/studio/designstu.png">
+								<div class="video-bg" style="background: url('
+											https://unfussy.org/projects/studio/designstu.png') center center / cover
+											no-repeat;"></div>
+								<video src="https://unfussy.org/projects/studio/designstu.mp4" width="1772"
+									height="2196" muted="" playsinline="" loop=""></video>
+							</div>
+							<div class="projects-list__infos flex flex-wrap">
+								<div class="projects-list__desc">
+									<p>
+										I joined the <span class="hblack">Design Studio</span> team to help
+										refresh &amp; expand a mobile-only prototype to tablet &amp; web. I added a
+										suite of custom icons, updated 3D, &amp; a new navigation style for
+										larger screens. I also fulfilled a popular user request by adding dark
+										mode.
+									</p>
+								</div>
+							</div>
+						</section>
+
+
+
+						<!--container for below the fold media-->
+						<section class="project__medias flex">
+
+							<!--image post-->
+							<div class="project__media fullheight lazy-container"
+								data-src="https://unfussy.org/projects/studio/mobileLand.png" data-final-width=""
+								data-width="3606" data-height="2200" style="width: 3606px">
+								<img src="https://unfussy.org/projects/studio/mobileLand.png" />
+								<div class="projects-list__infos flex flex-wrap">
+									<div class="projects-list__desc">
+										<!--<p class="hblack">From Index</p>
+										<p>
+											From index
+										</p>-->
+									</div>
+								</div>
+							</div>
+
+						</section>
+					</div>
+
+					<button class="btn__switch">
+						<span>+</span>
+						<span>[close]</span>
+					</button>
+				</div>
+			</article>
+
+			<!--include ALL collapsed components in order of index, excluding active page-->
+			<hovercad-collapsed></hovercad-collapsed>
+			<arcapture-collapsed></arcapture-collapsed>
+			<designsystems-collapsed></designsystems-collapsed>
+
+			<breaker-collapsed></breaker-collapsed>
+
+		</section>
+		<footer-component></footer-component>
+	</main>
+	<!--call ALL collapsed component scripts-->
+	<script src="https://unfussy.org/components/scrollbar.min.js" type="text/javascript" defer></script>
+	<script src="https://unfussy.org/components/footer.min.js" type="text/javascript" defer></script>
+	<script src="https://unfussy.org/components/hovercad-collapsed.min.js" type="text/javascript" defer></script>
+	<script src="https://unfussy.org/components/arcapture-collapsed.min.js" type="text/javascript" defer></script>
+	<script src="https://unfussy.org/components/designsystems-collapsed.min.js" type="text/javascript" defer></script>
+	<script src="https://unfussy.org/components/studio-collapsed.min.js" type="text/javascript" defer></script>
+	<script src="https://unfussy.org/components/breaker-collapsed.min.js" type="text/javascript" defer></script>
+	<script src="https://unfussy.org/functions.min.js" type="text/javascript" defer></script>
+</body>
+
+</html>
