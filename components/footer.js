@@ -12,10 +12,11 @@ class Footer extends HTMLElement {
                 
                 <a href="https://unfussy.org/media/TurnerResume.pdf" target="_blank">CV</a>
                 &nbsp;
-                    <a href="https://www.instagram.com/justhenturnhair/" target="_blank">IG</a>
+                <a href="https://github.com/unfussyorg/portfolio" target="_blank">GH</a>
+                &nbsp;
+                    <a href="https://www.instagram.com/nobaseball" target="_blank">IG</a>
                     &nbsp;
                     <a href="mailto:justin@unfussy.org">/&nbsp;&nbsp;&nbsp;&nbsp;justin@unfussy.org</a>
-                    
                 </div>
 
                 <button class="btn__switch">
