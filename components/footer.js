@@ -12,7 +12,7 @@ class Footer extends HTMLElement {
                 
                 <a href="https://unfussy.org/media/TurnerResume.pdf" target="_blank">CV</a>
                 &nbsp;
-                <a href="https://github.com/unfussyorg/portfolio" target="_blank">GH</a>
+                <a href="https://github.com/unfussyorg/radio" target="_blank">GH</a>
                 &nbsp;
                     <a href="https://www.instagram.com/nobaseball" target="_blank">IG</a>
                     &nbsp;
@@ -20,7 +20,7 @@ class Footer extends HTMLElement {
                 </div>
 
                 <button class="btn__switch">
-                    <span>bio +</span>
+                    <span>me me me +</span>
                     <span>[close]</span>
                 </button>
             </header>
@@ -29,37 +29,22 @@ class Footer extends HTMLElement {
                 <section class="site-infos__main flex flex-wrap md-row ragged add-right">
                     <div class="sm-row">
                         <p>
-                            Bay area <span class="hblack">senior product designer</span>. Most recently in R&amp;D at <a class="rule" href="https://hover.to" target="_blank">HOVER</a>, accelerating their mission to digitize the world's architecture. I focused on corralling CV &amp; ML
-                            breakthroughs into tools that make users feel superhuman, instead of obsolete.
+                            Bay area <span class="hblack">senior product designer</span> working on reality capture at <a class="rule" href="https://openspace.ai" target="_blank">OpenSpace</a>. Ex-<a class="rule" href="https://hover.to" target="_blank">HOVER</a>, ex-art director, from over yonder.
                         </p>
-                        <br />
-                        <p>
-                            I started my career as a commercial art director in Los Angeles. After being schooled in camp at RuPaul's Drag
-                            Race, I found a niche bringing the
-                            <a class="rule" href="https://vimeo.com/90196200" target="_blank">same aesthetic</a>
-                            to some very adventurous brands.
-                        </p>
-                        <br />
-                        <p>
-                            In my free time I build cars,
-                            <a class="rule" href="https://www.instagram.com/p/By3eA_TJeer/" target="_blank">then break them</a>. Over the past year I designed a <a class="rule" href="https://www.garagejournal.com/forum/threads/two-sheds-in-a-trenchcoat.499858" target="_blank">timber framed studio</a> that could be erected by a single person. Unfortunately, that person was also me. <br>
-                        </p>
-                        <br />
-                      
                     </div>
                 </section>
 
                 <section class="site-infos__main flex flex-wrap md-row remove-tm ragged">
-            
-                    <div class="sm-row">
-                        <div class="hblack">Writing</div>
-                             <div>
-                                 <p>
-                                    <a class="rule" href="https://medium.com/@justhenturnhair/designing-ai-that-doesnt-scare-your-parents-d0b6e3631fe7" target="_blank">Designing AI That Doesn't Scare Your Parents</a><br />
-                                </p>
-                             </div>
-                         </div>
-                    </div>
+                <div class="sm-row">
+                <div class="hblack">Writing</div>
+                     <div>
+                         <p>
+                            <a class="rule" href="https://medium.com/@justhenturnhair/designing-ai-that-doesnt-scare-your-parents-d0b6e3631fe7" target="_blank">Designing AI That Doesn't Scare Your Parents</a><br />
+                        </p>
+                     </div>
+                 </div>
+            </div>
+                    
 
                     <div class="sm-row">
                         <div class="hblack">Experienced in</div>
