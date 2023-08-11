@@ -22,16 +22,10 @@ class InjectStudio extends HTMLElement {
 					</div>
 					<div class="projects-list__infos flex flex-wrap">
 						<div class="projects-list__desc">
-
-				
-							<p>
-							I joined the <span class="hblack">Design Studio</span> team to help
-							refresh &amp; expand a mobile-only prototype to tablet &amp; web. I added a
-							suite of custom icons, updated 3D, &amp; a new navigation style for
-							larger screens. I also fulfilled a popular user request by adding dark
-							mode.
-							</p>
-
+							<span class="hblack">Design Studio</span>
+									<span>
+										&nbsp;·&nbsp; A configurator for your home
+									</span>
 						</div>
 					</div>
 				</section>

@@ -16,13 +16,10 @@ class InjectDsys extends HTMLElement {
 						<img src="https://unfussy.org/projects/designsystems/cover.png" />
 						<div class="projects-list__infos flex flex-wrap">
 							<div class="projects-list__desc">
-
-								<p>
-								My ARG style guide was used to pilot <span class="hblack">design systems</span> at Hover. I partnered with
-										FE to build a comprehensive component library in React/Redux.
-								
-								</p>
-
+							<span class="hblack">Design Systems</span>
+							<span>
+								&nbsp;·&nbsp; Pilot in Figma, React/Redux
+							</span>
 							</div>
 						</div>
 					</div>

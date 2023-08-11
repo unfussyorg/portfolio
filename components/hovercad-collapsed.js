@@ -16,16 +16,12 @@ class InjectCad extends HTMLElement {
 						data-width="3804" data-height="5600">
 						<img src="https://unfussy.org/projects/hovercad/hc-cover.png" />
 						<div class="projects-list__infos flex flex-wrap">
-							<div class="projects-list__desc">
-
-							<span class="hblack">HoverCAD</span>
-							<span>
-							is human-first, AI assisted 3D modeling. Starting with a blank sheet, we slashed
-							Hover's
-							unit cost by 75% in the first two years.
+						<div class="projects-list__desc">
+						<span class="hblack">HoverCAD</span>
+						<span>
+						&nbsp;·&nbsp; Human-first, AI assisted 3D modeling
 						</span>
-
-							</div>
+					</div>
 						</div>
 					</div>
 

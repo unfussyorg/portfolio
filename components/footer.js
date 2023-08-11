@@ -16,7 +16,7 @@ class Footer extends HTMLElement {
                 &nbsp;
                     <a href="https://www.instagram.com/nobaseball" target="_blank">IG</a>
                     &nbsp;
-                    <a href="mailto:justin@unfussy.org">/&nbsp;&nbsp;&nbsp;&nbsp;justin@unfussy.org</a>
+                    <a href="mailto:justin@unfussy.org">·&nbsp;&nbsp;&nbsp;&nbsp;justin@unfussy.org</a>
                 </div>
 
                 <button class="btn__switch">
@@ -52,34 +52,30 @@ class Footer extends HTMLElement {
                 <section class="site-infos__main flex flex-wrap md-row remove-tm ragged">
             
                     <div class="sm-row">
-                        <div class="hblack">Experienced in</div>
-                        <div>
-                            <p>
-                                UX/UI/motion<br />
-                                HCI &amp; IxD patterns<br />
-                                Information architecture &amp; auditing<br />
-                                System mapping with gherkin stories<br />
-                                User flows &amp; journey mapping<br />
-                                Workshops &amp; design sprints<br />
-                                Prototyping in 2D, 3D, &amp; IRL<br />
-                                User-testing (especially remote)<br />
-                                Data visualization<br />
-                                HTML &amp; CSS, basic FE architecture<br />
-                                3D Modeling &amp; archviz<br />
-                            </p>
-                        </div>
-                    </div>
-                    <!--            
-                    <div class="sm-row">
                         <div class="hblack">Writing</div>
-                        <div>
-                            <p>
-                                <a class="rule" href="https://medium.com/" target="_blank">1</a><br />
-                                firebase test machine/2<br />
-                            </p>
-                        </div>
+                             <div>
+                                 <p>
+                                    <a class="rule" href="https://medium.com/@justhenturnhair/designing-ai-that-doesnt-scare-your-parents-d0b6e3631fe7" target="_blank">Designing AI That Doesn't Scare Your Parents</a><br />
+                                </p>
+                             </div>
+                         </div>
                     </div>
-                    -->
+
+                    <div class="sm-row">
+                        <div class="hblack">Experienced in</div>
+                            <div>
+                                <p>
+                                    UX/UI<br />
+                                    HCI &amp; IxD patterns<br />
+                                    Workshops &amp; design sprints<br />
+                                    Prototyping in 2D, 3D, &amp; IRL<br />
+                                    User-testing (especially remote)<br />
+                                    Data visualization<br />
+                                    HTML &amp; CSS, basic FE architecture<br />
+                                </p>
+                             </div>
+                        </div>           
+                    </div>
                 </section>
             </section>
 <!--

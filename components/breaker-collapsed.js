@@ -21,10 +21,10 @@ class InjectBreaker extends HTMLElement {
 							<div class="projects-list__infos flex flex-wrap">
 								<div class="projects-list__desc">
 
-								<p>
-								<span class="hblack">Breaker</span> unlocks safe and frequent user-testing. It allows experimental features to be toggled live without breaking
-								production, then rolled out to users in cohorts. We were tired of waiting for split.io to be invented, so we made it ourselves.
-							</p>
+								<span class="hblack">Breaker</span>
+									<span>
+										&nbsp;·&nbsp; Scratch-made feature flagging
+									</span>
 									
 								</div>
 							</div>

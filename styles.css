@@ -854,6 +854,10 @@ a {
 	background: #e5e5e5;
 }
 
+.project_copy {
+	background: #fff;
+}
+
 .site-infos {
 	position: fixed;
 	top: 0;

@@ -17,10 +17,10 @@ class InjectArc extends HTMLElement {
 						<div class="projects-list__infos flex flex-wrap">
 							<div class="projects-list__desc">
 
-								<p>
-									As Hover expanded from pros to homeowners, new users frequently bounced during their first capture. <span class="hblack">ARCapture</span> creates a visual feedback loop between user inputs &amp; our CV backend, ensuring beginner's luck for everyone.
-									
-								</p>
+							<span class="hblack">ARCapture</span>
+							<span>
+								&nbsp;·&nbsp; CV guided property capture
+							</span>
 
 							</div>
 						</div>
