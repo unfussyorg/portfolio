@@ -29,7 +29,7 @@ class Footer extends HTMLElement {
                 <section class="site-infos__main flex flex-wrap md-row ragged add-right">
                     <div class="sm-row">
                         <p>
-                            Bay area <span class="hblack">senior product designer</span>. Most recently in R&amp;D at <a class="rule" href="https://hover.to" target="_blank">HOVER</a>, accelerating their mission to digitize the world's architecture. I focused on corralling CV &amp; ML
+                            Bay area <span class="hblack">senior product designer</span> working on reality capture at  <a class="rule" href="https://openspace.ai" target="_blank">OpenSpace</a>. Previously in R&amp;D at <a class="rule" href="https://hover.to" target="_blank">HOVER</a>, accelerating their mission to digitize the world's architecture. I corral CV &amp; ML
                             breakthroughs into tools that make users feel superhuman, instead of obsolete.
                         </p>
                         <br />
@@ -56,6 +56,8 @@ class Footer extends HTMLElement {
                              <div>
                                  <p>
                                     <a class="rule" href="https://medium.com/@justhenturnhair/designing-ai-that-doesnt-scare-your-parents-d0b6e3631fe7" target="_blank">Designing AI That Doesn't Scare Your Parents</a><br />
+                                    <a class="rule" href="https://medium.com/tradecraft-traction/youre-a-strong-beautiful-user-and-you-deserve-more-60a27c8cc81d" target="_blank">You're a Strong, Beautiful User</a><br />
+                                    
                                 </p>
                              </div>
                          </div>
