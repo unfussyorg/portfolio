@@ -629,6 +629,7 @@ h1 {
 
 .galmanblock {
 	height: 100%;
+	width: 100vw;
 	grid-column-gap: 20px;
 	grid-row-gap: 0px;
 	object-fit: none;
@@ -740,7 +741,7 @@ h1 {
 	align-items: center;
 	display: flex;
 }
-
+/*
 .galmanlottie {
 	width: auto;
 	height: 100%;
@@ -753,9 +754,24 @@ h1 {
 	padding: 50px;
 	display: flex;
 }
+*/
+
+.galmanlottie {
+	height: 100%;
+	width: auto;
+	aspect-ratio: auto;
+	background-color: var(--black-padding);
+	border-radius: 6px;
+	flex: none;
+	justify-content: flex-start;
+	align-items: stretch;
+	padding: 50px;
+	display: flex;
+}
 
 .galmanvideo {
 	height: 100%;
+	width: auto;
 	background-color: var(--black-padding);
 	color: var(--black-200);
 	object-fit: fill;
@@ -779,10 +795,16 @@ h1 {
 	padding: 50px;
 }
 
-.galmanvideo.galmanhome {
+.galmanvideohome {
+	height: 100%;
+	object-fit: fill;
+	border-radius: 6px;
+	flex: 0 auto;
+	padding: 50px;
+	display: block;
+	overflow: visible;
 	background-color: var(--black-300);
 	color: var(--black-300);
-	border-radius: 6px;
 }
 
 .capdiv {
